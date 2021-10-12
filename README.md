@@ -67,11 +67,11 @@ This package contains the skeleton code for developing the tritonhttp web server
 
 
 ## Testing
-Follow the testing strategies mentioned in the project description and the README in the testing directory. <br>
+Follow the testing strategies linked from the project description
 
 For Simple testing : <br>
 
-1. Set `use_default_server=false` in the config file and start the server using `run-server.sh [config_file]`.
+1. Set `use_default_server=false` in the config file and start the server using `run-server.sh [config_file] [hosts.json]`.
 
 2. Once the server is launched, test it's functionality using a browser, curl, netcat or a custom client.
 
